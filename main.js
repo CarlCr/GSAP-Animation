@@ -12,6 +12,7 @@ back.addEventListener("click", (e) => {
   t2.reverse();
 });
 
+
 t1.play();
 
 t1.to(".car-1", {
@@ -62,8 +63,6 @@ t1.to(
 );
 
 
-
-
 t1.from(
   ".buy_car",
   {
@@ -89,9 +88,6 @@ t2.to(
   },
   0
 );
-
-
-
 
 
 
@@ -158,7 +154,7 @@ t2.to(
   0.7
 );
 
-// First Transition Over
+// Primeira Transição 
 t2.to(
   ".purchase",
   {
@@ -188,8 +184,6 @@ t2.to(
   },
   0.6
 );
-
-
 
 
 t2.to(
